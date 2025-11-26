@@ -5,13 +5,13 @@ Works on all modern browsers, mobile devices, and even older fallback-only brows
 
 ## How to install ?
 ```
-npm install use-copy-to-clipboard
+npm install use-copy-to-clipboard-hook
 ```
 
 ## Basic example 
 ```
 import { useState } from "react";
-import useCopyToClipboard from "use-copy-to-clipboard"
+import useCopyToClipboard from "use-copy-to-clipboard-hook"
 
 function App() {
 
