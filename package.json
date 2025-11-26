@@ -1,12 +1,17 @@
 {
   "name": "use-copy-to-clipboard-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight React hook for copying text to clipboard with fallback support.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["react", "clipboard", "copy", "hook"],
+  "keywords": [
+    "react",
+    "clipboard",
+    "copy",
+    "hook"
+  ],
   "author": "Shivani Tripurari",
   "license": "MIT",
   "dependencies": {
