@@ -22,10 +22,12 @@ export default function useCopyToClipboard(resetInterval = 2000) {
     }
   };
 
+  // useCallback is used to memomize the function, this function is recreated when dependency array changes
   const copy = useCallback(async (text) => {
     if (!text) return false;
 
     // for modern browsers
+    //navigator.clipboard is asynchronous and is web api
     if (navigator.clipboard && window.isSecureContext) {
       try {
         await navigator.clipboard.writeText(text);
